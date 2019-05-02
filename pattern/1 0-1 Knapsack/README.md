@@ -247,3 +247,7 @@ class Knapsack {
   }
 }
 ```
+
+### Challenge
+Can we further improve our bottom-up DP solution? Can you find an algorithm that has O(C)O(C) space complexity?
+### We only need one previous row to find the optimal solution!
