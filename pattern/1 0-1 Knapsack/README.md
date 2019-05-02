@@ -105,8 +105,10 @@ class Knapsack {
 ```
 
 ### Bottom-up Dynamic Programming
-```
-Let’s try to populate our dp[][] array from the above solution, working in a bottom-up fashion. Essentially, we want to find the maximum profit for every sub-array and for every possible capacity. This means, dp[i][c] will represent the maximum knapsack profit for capacity ‘c’ calculated from the first ‘i’ items.
+
+Let’s try to populate our dp[][] array from the above solution, working in a bottom-up fashion. Essentially, we want to 
+find the maximum profit for every sub-array and for every possible capacity. This means, dp[i][c] will represent the 
+maximum knapsack profit for capacity ‘c’ calculated from the first ‘i’ items.
 
 So, for each item at index ‘i’ (0 <= i < items.length) and capacity ‘c’ (0 <= c <= capacity), we have two options:
 
@@ -118,7 +120,5 @@ Finally, our optimal solution will be maximum of the above two values:
 
 
 dp[i][c] = max (dp[i-1][c], profit[i] + dp[i-1][c-weight[i]])
-    
-```
     
 
