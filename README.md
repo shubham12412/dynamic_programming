@@ -25,3 +25,5 @@ Tabulation is the opposite of the top-down approach and avoids recursion. In thi
 Tabulation is the opposite of Memoization, as in Memoization we solve the problem and maintain a map of already solved sub-problems. In other words, in memoization, we do it top-down in the sense that we solve the top problem first (which typically recurses down to solve the sub-problems).
 
 we should always start with a brute-force recursive solution, which is the best way to start solving any DP problem. Once we have a recursive solution then we should apply Memoization and Tabulation techniques.
+
+![dp message](img/dp.png "dynamic programming quote")
