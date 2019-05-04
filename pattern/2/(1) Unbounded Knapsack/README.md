@@ -179,5 +179,5 @@ find more items.
 
 
 
-
+![Find the selected items image](/img/Unbounded_Knapsack.svg)
 
