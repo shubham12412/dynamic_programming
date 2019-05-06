@@ -28,3 +28,7 @@ Tabulation is the opposite of Memoization, as in Memoization we solve the proble
 we should always start with a brute-force recursive solution, which is the best way to start solving any DP problem. Once we have a recursive solution then we should apply Memoization and Tabulation techniques.
 
 ![dp message](img/dp.png "dynamic programming quote")
+
+https://www.geeksforgeeks.org/dynamic-programming/
+
+
